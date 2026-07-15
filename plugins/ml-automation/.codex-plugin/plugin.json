@@ -1,0 +1,31 @@
+{
+  "name": "ml-automation",
+  "version": "1.0.0",
+  "description": "Mercado Libre operations from Codex, including secure local photo uploads for listings.",
+  "author": {
+    "name": "One Main",
+    "url": "https://github.com/kftgjz8kmy-max"
+  },
+  "homepage": "https://ml-automation-iota.vercel.app",
+  "repository": "https://github.com/kftgjz8kmy-max/ml-automation-codex-plugin",
+  "license": "MIT",
+  "keywords": ["mercado-libre", "listings", "sales", "photos"],
+  "skills": "./skills/",
+  "mcpServers": "./.mcp.json",
+  "interface": {
+    "displayName": "ML Automation",
+    "shortDescription": "Manage Mercado Libre from Codex.",
+    "longDescription": "Connect Mercado Libre, review sales and listings, prepare controlled drafts, and upload listing photos from this Mac without exposing marketplace tokens.",
+    "developerName": "One Main",
+    "category": "Productivity",
+    "capabilities": ["Interactive", "Write"],
+    "websiteURL": "https://ml-automation-iota.vercel.app",
+    "defaultPrompt": [
+      "Review my latest Mercado Libre sales",
+      "Create a paused listing using these photos",
+      "Compare prices for this product in Mercado Libre"
+    ],
+    "brandColor": "#FFE600",
+    "screenshots": []
+  }
+}

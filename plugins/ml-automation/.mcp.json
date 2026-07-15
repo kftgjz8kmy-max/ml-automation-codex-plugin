@@ -1,0 +1,13 @@
+{
+  "mcpServers": {
+    "ml-automation": {
+      "type": "http",
+      "url": "https://ml-automation-iota.vercel.app/api/mcp"
+    },
+    "ml-automation-local-photos": {
+      "command": "node",
+      "args": ["./mcp/photo-bridge.mjs"],
+      "cwd": "."
+    }
+  }
+}

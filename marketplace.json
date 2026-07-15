@@ -1,0 +1,20 @@
+{
+  "name": "one-main",
+  "interface": {
+    "displayName": "One Main"
+  },
+  "plugins": [
+    {
+      "name": "ml-automation",
+      "source": {
+        "source": "local",
+        "path": "./plugins/ml-automation"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}
